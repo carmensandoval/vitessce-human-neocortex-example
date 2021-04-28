@@ -27,7 +27,7 @@
                 {
                     "type": "expression-matrix",
                     "fileType": "anndata-expression-matrix.zarr",
-                    "url": "hhttps://carmensandoval.github.io/vitessce-human-neocortex-example/data/A/0/anndata.zarr",
+                    "url": "https://carmensandoval.github.io/vitessce-human-neocortex-example/data/A/0/anndata.zarr",
                     "options": {
                         "matrix": "X"
                     }
