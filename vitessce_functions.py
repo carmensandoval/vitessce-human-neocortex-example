@@ -145,3 +145,11 @@ def createBrowserFromFile(dir_in, file_name):
     my_adata = scanpyProcess(adata = my_adata)
     my_vc = buildVitessceConfig(area_name = AREA_NAME, adata = my_adata)
     uploadToAWS(vc = my_vc, my_json = JSON_FILE, area_name = AREA_NAME)
+
+# Call createBrowserFromFile in process_data_for_vitessce.py:
+
+# file_list = os.listdir("./cell_by_feature_matrices/")
+# print(file_list)
+
+# for file_name in file_list[3:]:
+#    vf.createBrowserFromFile(dir_in = "./cell_by_feature_matrices/", file_name = file_name)
